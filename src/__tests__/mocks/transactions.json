@@ -1,0 +1,22 @@
+[
+  {
+      "sku": "KED089097/68/09",
+      "type": "order",
+      "qty": 8
+  },
+  {
+      "sku": "DOK019240/66/49",
+      "type": "order",
+      "qty": 4
+  },
+  {
+      "sku": "XOE089797/10/74",
+      "type": "refund",
+      "qty": 5
+  },
+  {
+      "sku": "KGD740425/40/48",
+      "type": "order",
+      "qty": 6
+  }
+]

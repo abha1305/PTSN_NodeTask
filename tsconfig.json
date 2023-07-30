@@ -1,0 +1,46 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "lib": [
+      "ES2019",
+      "ES2020"
+    ],
+    "strict": true,
+    "declaration": false,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+    "baseUrl": "src",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/**/*",
+    "jest.setup.ts",
+    "jest.config.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "test/**/*",
+    "ci/**/*",
+    "scripts/**/*",
+    "__mocks__/**/*",
+    "**/node_modules/**/*",
+    "**/dts/**/*",
+    "**/dist/**/*",
+    "**/*.(spec|test).ts"
+  ],
+}
