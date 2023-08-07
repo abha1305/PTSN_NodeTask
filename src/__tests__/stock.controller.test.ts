@@ -40,4 +40,16 @@ const req = {
       const expectedData = {"sku":"KGD740425/40/48","qty":-6}
       expect(data).toEqual(expectedData)
     });
+
+    test('should return available stock for SXB930757/87/87 calculated based on diff order type', async () => {
+      const data = await getCurrentStock('SXB930757/87/87', stockService)
+      const expectedData = {"sku":"SXB930757/87/87","qty":3543}
+      expect(data).toEqual(expectedData)
+    });
+
+    test('should return available stock for PGL751486/42/83 calculated based on odered transactions', async () => {
+      const data = await getCurrentStock('PGL751486/42/83', stockService)
+      const expectedData = {"sku":"PGL751486/42/83","qty":1469}
+      expect(data).toEqual(expectedData)
+    });
   });

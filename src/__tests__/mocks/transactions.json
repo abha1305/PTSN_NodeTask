@@ -18,5 +18,30 @@
       "sku": "KGD740425/40/48",
       "type": "order",
       "qty": 6
-  }
+  },
+  {
+      "sku": "SXB930757/87/87",
+      "qty": 9,
+      "type": "order"
+  },
+  {
+    "sku": "SXB930757/87/87",
+    "qty": 9,
+    "type": "order"
+},
+{
+    "sku": "SXB930757/87/87",
+    "qty": 9,
+    "type": "refund"
+},
+{
+    "sku": "PGL751486/42/83",
+    "qty": 10,
+    "type": "order"
+},
+{
+    "sku": "PGL751486/42/83",
+    "qty": 5,
+    "type": "order"
+}
 ]
